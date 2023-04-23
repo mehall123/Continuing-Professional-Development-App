@@ -38,7 +38,6 @@ We use GitHub issues to track public bugs. Report a bug by opening a new issue i
 - What actually happens
 - Notes (possibly including why you think this might be happening, or stuff you tried that didn't work)
 
-People *love* thorough bug reports. I'm not even kidding.
 
 ## Use a Consistent Coding Style
 
