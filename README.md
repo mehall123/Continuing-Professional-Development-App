@@ -40,12 +40,6 @@ We use GitHub issues to track public bugs. Report a bug by opening a new issue i
 - What actually happens
 - Notes (possibly including why you think this might be happening, or stuff you tried that didn't work)
 
-
-## Use a Consistent Coding Style
-
-* 2 spaces for indentation rather than tabs
-* You can try running `npm run lint` for style unification
-
 ## License
 By contributing, you agree that your contributions will be licensed under its MIT License.
 
