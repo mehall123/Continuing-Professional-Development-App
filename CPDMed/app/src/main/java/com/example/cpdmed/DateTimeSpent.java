@@ -7,22 +7,21 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class Home extends AppCompatActivity {
-
+public class DateTimeSpent extends AppCompatActivity {
     private Button newActivityButton;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_home);
+        setContentView(R.layout.activity_date_time_spent);
 
-        newActivityButton =(Button) findViewById(R.id.button6);
+        newActivityButton =(Button) findViewById(R.id.button3);
         newActivityButton.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) { openNewActivity(); }
+            public void onClick(View view) { openNameActivity(); }
         });
     }
-    public void openNewActivity(){
-        Intent intent = new Intent(this, DateTimeSpent.class);
+    public void openNameActivity(){
+        Intent intent = new Intent(this, NameOfActivity.class);
         startActivity(intent);
     }
 }

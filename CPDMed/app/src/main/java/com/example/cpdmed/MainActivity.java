@@ -16,9 +16,7 @@ public class MainActivity extends AppCompatActivity {
         buttonLogin =(Button) findViewById(R.id.buttonLogin);
         buttonLogin.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
-                openHomeActivity();
-            }
+            public void onClick(View view) { openHomeActivity(); }
         });
     }
     public void openHomeActivity(){

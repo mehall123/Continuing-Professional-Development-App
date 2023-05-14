@@ -7,22 +7,21 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class Home extends AppCompatActivity {
-
+public class NameOfActivity extends AppCompatActivity {
     private Button newActivityButton;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_home);
+        setContentView(R.layout.activity_name_of);
 
-        newActivityButton =(Button) findViewById(R.id.button6);
+        newActivityButton =(Button) findViewById(R.id.button7);
         newActivityButton.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) { openNewActivity(); }
+            public void onClick(View view) { openCreditActivity(); }
         });
     }
-    public void openNewActivity(){
-        Intent intent = new Intent(this, DateTimeSpent.class);
+    public void openCreditActivity(){
+        Intent intent = new Intent(this, CreditAmount.class);
         startActivity(intent);
     }
 }
