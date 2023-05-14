@@ -14,6 +14,9 @@ Here are some of the specific things I learned along the way:
 ●	How to work under pressure and meet deadlines
 I am grateful for the opportunity to have worked on these projects and I am excited to continue contributing to open source in the future.
 
+
+ISSUES:
+
 1. Pre-populate the password_confirmation field with the value of the password field in the app/views/users/new.html.erb file.
 2. In the app/models/user.rb file, the password attribute is not marked as protected. This means that anyone who has access to the database can view the user's passwords.
 3. In the app/controllers/users_controller.rb file, the create action does not validate the user's input. This means that a user could create an account with an invalid email address or password.
