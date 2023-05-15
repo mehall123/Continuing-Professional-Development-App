@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "715759130667",
+    "project_id": "cpdmed-68b65",
+    "storage_bucket": "cpdmed-68b65.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:715759130667:android:c058723accd7412536726e",
+        "android_client_info": {
+          "package_name": "com.example.cpdmed"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "715759130667-e4ubmgt3702h5fai75b10ta4bvgjhb8p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRZ67TKMAdxTGk71FwYT3rOewVo8NYNWM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "715759130667-e4ubmgt3702h5fai75b10ta4bvgjhb8p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
