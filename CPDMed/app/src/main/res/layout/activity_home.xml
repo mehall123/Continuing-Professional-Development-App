@@ -10,7 +10,7 @@
         android:id="@+id/button"
         android:layout_width="249dp"
         android:layout_height="200dp"
-        android:text="15 Credits"
+        android:text="0 Credits"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
@@ -22,7 +22,7 @@
         android:id="@+id/button2"
         android:layout_width="151dp"
         android:layout_height="123dp"
-        android:text="5 External Credits"
+        android:text="0 External Credits"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.059"
@@ -33,7 +33,7 @@
         android:id="@+id/button4"
         android:layout_width="151dp"
         android:layout_height="123dp"
-        android:text="5 Internal Credits"
+        android:text="0 Internal Credits"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.94"
@@ -44,7 +44,7 @@
         android:id="@+id/button5"
         android:layout_width="151dp"
         android:layout_height="123dp"
-        android:text="5 Personal credits"
+        android:text="0 Personal credits"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.501"
@@ -67,27 +67,11 @@
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Summary of current credits"
+        android:text="Summary of your current credits"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.061" />
-
-    <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/bottom_navigation_view"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_gravity="center"
-        app:itemBackground="@color/bottom_navigation_item_background"
-        app:itemIconSize="25dp"
-        app:labelVisibilityMode="unlabeled"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:menu="@menu/bottom_navigation">
-
-    </com.google.android.material.bottomnavigation.BottomNavigationView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".DateTimeSpent">
+    tools:context=".ExternalInternalPersonal">
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/button11"
         android:layout_width="172dp"
         android:layout_height="49dp"
         android:text="Next"
@@ -17,27 +17,25 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.919" />
 
-    <EditText
-        android:id="@+id/editTextDate"
-        android:layout_width="246dp"
-        android:layout_height="85dp"
-        android:ems="10"
-        android:inputType="date"
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="336dp"
+        android:layout_height="108dp"
+        android:background="@android:drawable/btn_dropdown"
+        android:spinnerMode="dropdown"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView"
-        android:layout_width="199dp"
-        android:layout_height="56dp"
-        android:text="What was the date of this activity?"
+        android:id="@+id/textView2"
+        android:layout_width="219dp"
+        android:layout_height="71dp"
+        android:text="Was this an internal, external or personal credit?"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.354" />
-
+        app:layout_constraintVertical_bias="0.289" />
 </androidx.constraintlayout.widget.ConstraintLayout>

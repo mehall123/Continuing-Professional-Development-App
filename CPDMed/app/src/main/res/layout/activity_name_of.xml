@@ -33,7 +33,7 @@
         android:id="@+id/textView3"
         android:layout_width="303dp"
         android:layout_height="44dp"
-        android:text="Type of learning activity what was the name of the activity?"
+        android:text="What was the name of the activity?"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.481"
