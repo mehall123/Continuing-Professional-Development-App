@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu1_activity_detail"
+        android:icon="@drawable/github"
+        android:title="Activity Detail" />
+    <item
+        android:id="@+id/menu2_reflection"
+        android:icon="@drawable/github"
+        android:title="Reflection" />
+    <item
+        android:id="@+id/menu3_attachments"
+        android:icon="@drawable/github"
+        android:title="Attachments" />
+    <item
+        android:id="@+id/menu4_development_needs"
+        android:icon="@drawable/github"
+        android:title="Development Needs" />
+    <item
+        android:id="@+id/menu5_relevant_links"
+        android:icon="@drawable/github"
+        android:title="Relevant Links" />
+</menu>
