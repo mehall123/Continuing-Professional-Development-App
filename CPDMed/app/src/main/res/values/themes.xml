@@ -12,6 +12,12 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+
+
+        <!-- remove activity switch animation effect -->
+        <item name="android:windowAnimationStyle">@null</item>
+
+
     </style>
     <!-- Base application theme. -->
     <style name="Base.Theme.CPDMed" parent="Theme.Material3.DayNight.NoActionBar">

@@ -2,6 +2,8 @@ package com.example.cpdmed;
 
 import androidx.annotation.NonNull;
 import androidx.core.content.ContextCompat;
+import androidx.core.view.MenuItemCompat;
+
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.PorterDuff;
@@ -63,24 +65,28 @@ public class BottomNavigationLogic implements BottomNavigationView.OnItemSelecte
     public void changeNavigationLooks(int activeItemId) {
         int menuSize = bottomNavigationView.getMenu().size();
 
-        // Set icon color
-        for (int i = 0; i < menuSize; i++) {
-            MenuItem menuItem = bottomNavigationView.getMenu().getItem(i);
-            boolean isActive = menuItem.getItemId() == activeItemId;
-
-            View view = bottomNavigationView.findViewById(menuItem.getItemId());
-
-            Drawable iconDrawable = menuItem.getIcon();
-
-            int iconColorResId = isActive ? R.color.navigation_icon_color_selected : R.color.navigation_icon_color;
-            int iconColor = ContextCompat.getColor(context, iconColorResId);
-
-            iconDrawable.setColorFilter(iconColor, PorterDuff.Mode.SRC_IN);
-            menuItem.setIcon(iconDrawable);
-
-            // Set the updated view back to the menu item (important for icon otherwise dont work)
-            menuItem.setActionView(view);
-        }
+        // Set icon color todo - doesnt work as intended in ur app...
+//        for (int i = 0; i < menuSize; i++) {
+//            MenuItem menuItem = bottomNavigationView.getMenu().getItem(i);
+//            boolean isActive = menuItem.getItemId() == activeItemId;
+//
+//            View view = bottomNavigationView.findViewById(menuItem.getItemId());
+//
+//            Drawable iconDrawable = menuItem.getIcon();
+//
+//            int iconColorResId = isActive ? R.color.navigation_icon_color_selected : R.color.navigation_icon_color;
+//            int iconColor = ContextCompat.getColor(context, iconColorResId);
+//
+//            iconDrawable.setColorFilter(iconColor, PorterDuff.Mode.SRC_IN);
+//            menuItem.setIcon(iconDrawable);
+//
+//
+//
+//            // Set the updated view back to the menu item (important for icon otherwise dont work)
+//            menuItem.setActionView(view);
+//
+//
+//        }
 
         // Set bg color
         for (int i = 0; i < menuSize; i++) {
@@ -88,6 +94,7 @@ public class BottomNavigationLogic implements BottomNavigationView.OnItemSelecte
             boolean isActive = menuItem.getItemId() == activeItemId;
 
             View view = bottomNavigationView.findViewById(menuItem.getItemId());
+
 
             int backgroundResId = isActive ? R.color.navigation_bg_color_selected : R.color.navigation_bg_color;
             view.setBackgroundResource(backgroundResId);

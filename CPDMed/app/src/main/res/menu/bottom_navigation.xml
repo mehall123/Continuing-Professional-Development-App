@@ -1,22 +1,40 @@
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<!--comment out first item to make it hidden then no white circle shows up in menu but only 4 menu items remain-->
     <item
         android:id="@+id/menu1_activity_detail"
+        android:checkable="false"
+        android:checked="false"
         android:icon="@drawable/github"
-        android:title="Activity Detail" />
+        android:title="Activity Details"
+        app:showAsAction="never" />
     <item
         android:id="@+id/menu2_reflection"
+        android:checkable="false"
+        android:checked="false"
         android:icon="@drawable/github"
-        android:title="Reflection" />
+        android:title="Reflection"
+        app:showAsAction="never" />
     <item
         android:id="@+id/menu3_attachments"
+        android:checkable="false"
+        android:checked="false"
         android:icon="@drawable/github"
-        android:title="Attachments" />
+        android:title="Attachments"
+        app:showAsAction="never" />
     <item
         android:id="@+id/menu4_development_needs"
+        android:checkable="false"
+        android:checked="false"
         android:icon="@drawable/github"
-        android:title="Development Needs" />
+        android:title="Development Needs"
+        app:showAsAction="never" />
     <item
         android:id="@+id/menu5_relevant_links"
+        android:checkable="false"
+        android:checked="false"
         android:icon="@drawable/github"
-        android:title="Relevant Links" />
+        android:title="Relevant Links"
+        app:showAsAction="never" />
 </menu>
