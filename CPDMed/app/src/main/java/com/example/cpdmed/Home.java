@@ -34,11 +34,11 @@ public class Home extends AppCompatActivity {
     private Button totalExternalCreditsButton;
     private Button totalInternalCreditsButton;
     private Button totalPersonalCreditsButton;
-    private FirebaseAuth mAuth;
     private Integer totalCredits = 0;
     private Integer totalExternalCredits = 0;
     private Integer totalInternalCredits = 0;
     private Integer totalPersonalCredits = 0;
+    private FirebaseAuth mAuth;
     FirebaseFirestore db;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -128,9 +128,19 @@ public class Home extends AppCompatActivity {
                 openNewActivity();
             }
         });
+        totalCreditsButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openTotalCreditsActivity();
+            }
+        });
     }
     public void openNewActivity(){
         Intent intent = new Intent(this, ExternalInternalPersonal.class);
         startActivity(intent);
+    }
+    public void openTotalCreditsActivity(){
+        //Intent intent = new Intent(this, TotalCreditsActivity.class);
+        //startActivity(intent);
     }
 }
